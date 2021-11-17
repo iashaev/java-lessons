@@ -1,0 +1,1 @@
+The project contains a collection of exercises on Java programming for the 2nd year students of IMIT OmSU.
