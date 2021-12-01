@@ -1,6 +1,6 @@
 package ru.omsu.imit.function.exceptions;
 
-public class RationalFunctionException extends Exception {
+public class RationalFunctionException extends FunctionException {
     public RationalFunctionException(String s) {
         super(s);
     }

@@ -12,14 +12,13 @@ package ru.omsu.imit.function;
 // 5. Написать класс "Сервис функций" с методом getValues, который получает на вход массив объектов, реализующих
 // интерфейс IFunction и число x, и возвращает массив значений этих функций на x.
 
-import ru.omsu.imit.function.exceptions.RationalFunctionException;
+import ru.omsu.imit.function.exceptions.FunctionException;
 
 public interface IFunction {
     double ACCURACY = 0.0001;
-    double getValue(double x) throws RationalFunctionException;
+    double getValue(double x) throws FunctionException;
     default boolean inDomain(double x) {
         return true;
     }
 }
-
 
